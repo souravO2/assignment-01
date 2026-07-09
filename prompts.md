@@ -1,0 +1,2 @@
+this is my assignment as i have completed html and css . my tutor gave the "something missing, generate a relevant section with ai" section to make it by using ai , now i want you to think something relevant for this section to complete the assginment , dont give me any code, i just want some ideas.
+make me an image on how the design would look like if i add event schedule.
