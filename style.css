@@ -10,16 +10,9 @@ button:hover {
 .blue {
     color: #1D4ED8;
 }
-.commonbtn {
-    background-color: #1D4ED8;
-    color: white;
-    padding: 15px 30px;
-    font-weight: 600;
-    border:0;
-    border-radius: 10px;
-}
 /* navbar starts */
 nav {
+    position: fixed;
     background-color: antiquewhite;
     display: flex;
     justify-content: space-between;
@@ -39,7 +32,6 @@ nav ul li a {
 nav button {
     background-color: #1D4ED8;
     color: white;
-    /* box-sizing: border-box; */
     padding: 15px 30px;
     font-weight: 600;
     border:0;
@@ -101,7 +93,6 @@ article .ppls .boxdiv {
     box-shadow: 0 0 3px black;
     border-radius: 10px;
     text-align: left;
-    /* padding-left: 10%; */
 }
 .ppls .detailsdiv {
     padding-left: 5%;
@@ -131,12 +122,10 @@ article .ppls .boxdiv {
 .promo .boxflex {
     display: flex;
     justify-content: center;
-    /* padding-top: 10%; */
     gap:20px;
     line-height: 1.5;
 }
 .card {
-    /* width: fit-content; */
     text-align: left;
     border: 1px solid hsl(0, 0%, 79%);
     border-radius: 10px;
@@ -192,7 +181,6 @@ section .daycard {
     box-shadow: 0 0 3px black;
     padding: 50px 20px;
     border-radius: 20px;
-    padding:;
 }
 section .imgdiv {
     display: flex;
@@ -204,6 +192,7 @@ section .imgdiv p {
     color: #1D4ED8;
 }
 .imgdiv img {
+    padding: 5px;
     border: 1px solid #1D4ED8;
     border-radius: 10px;
 }
@@ -230,7 +219,25 @@ section .imgdiv p {
     margin-top: 20px;
     font-weight: bold;
 }
+footer {
+    background-color: #0D1B2A;
+    color: aliceblue;
+}
+footer .footdiv1,footer .footdiv2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+footer .anchr {
+    display: flex;
+    gap: 15px;
+}
+footer a {
+    color: aliceblue;
+    text-decoration: none;
 
+}
 
 
 
