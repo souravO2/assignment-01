@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.blue {
+    color: #1D4ED8;
+}
+.commonbtn {
+    background-color: #1D4ED8;
+    color: white;
+    padding: 15px 30px;
+    font-weight: 600;
+    border:0;
+    border-radius: 10px;
+}
+/* navbar starts */
+nav {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 40px;     
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+nav button {
+    background-color: #1D4ED8;
+    color: white;
+    /* box-sizing: border-box; */
+    padding: 15px 30px;
+    font-weight: 600;
+    border:0;
+    border-radius: 10px;
+}
+/* navbar ends here */
+/* main hero section starts */
+main {
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(./img/banner.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main .div1 {
+    width: 50%;
+    align-self: center ;
+}
+main h1 {
+    font-size: 80px;
+    padding-bottom: 5%;
+}
+main button {
+    background-color: #1D4ED8;
+    color: white;
+    padding: 15px 60px;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 1px;
+    border:0;
+    border-radius: 10px;
+}
+/* main hero section ends */
+/* speaker section starts  */
+article {
+    text-align: center;
+}
+article>h2 {
+    font-size: 56px;
+    font-weight: bold;
+    padding: 5%;
+}
+article .ppls {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-around;
+    gap: 50px;
+    margin: 0 10%;
+}
+article .ppls .boxdiv {
+    display: flex;
+    flex-direction: column;
+    border:0 solid black;
+    box-shadow: 0 0 3px black;
+    border-radius: 10px;
+    text-align: left;
+    /* padding-left: 10%; */
+}
+.ppls .detailsdiv {
+    padding-left: 5%;
+    margin: 2%;
+    line-height: 1.5;
+}
+.ppls .boxdiv img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+/* speaker section ends */
+/* promo starts */
+.promo {
+    text-align: center;
+    padding: 100px;
+}
+.promo .headline h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.promo .headline p {
+    padding: 10px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.promo .boxflex {
+    display: flex;
+    justify-content: center;
+    /* padding-top: 10%; */
+    gap:20px;
+    line-height: 1.5;
+}
+.card {
+    /* width: fit-content; */
+    text-align: left;
+    border: 1px solid hsl(0, 0%, 79%);
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+.card ul {
+    padding-top: 10px;
+    list-style-position: inside;
+    font-size: 14px;
+    line-height: 2;
+    color: #333333;
+
+}
+.card ul li::marker {
+    color: #1D4ED8;
+}
+.card button {
+    border: 1px solid #1D4ED8;
+    color: #1D4ED8;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.card.special {
+    padding: 40px;
+    color: white;
+    border: 0;
+    background-color: #0D1B2A;
+}
+.card.special ul {
+    color:white;
+    padding-top:10px;
+}
+.card.special button {
+    border: 0;
+    background-color: #1D4ED8;
+    color: white;
+}
+/* promo end */
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width:768px) {
+    article .ppls {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .promo .boxflex {
+        display: flex;
+        flex-direction: column;
+    }
+}
