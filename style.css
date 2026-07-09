@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+button:hover {
+    cursor: pointer;
+}
 .blue {
     color: #1D4ED8;
 }
@@ -175,7 +178,58 @@ article .ppls .boxdiv {
     color: white;
 }
 /* promo end */
-
+/* special starts */
+section>div {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.special h1 {
+    font-size: 48px;
+}
+section .daycard {
+    border: 0;
+    box-shadow: 0 0 3px black;
+    padding: 50px 20px;
+    border-radius: 20px;
+    padding:;
+}
+section .imgdiv {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+section .imgdiv p {
+    font-weight: bold;
+    color: #1D4ED8;
+}
+.imgdiv img {
+    border: 1px solid #1D4ED8;
+    border-radius: 10px;
+}
+.time {
+    text-align: left;
+    align-items: center;
+    line-height: 2;
+}
+.flexingcard {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    border: 0;
+}
+.flexingcard span {
+    font-weight: bold;
+}
+.special button {
+    border: 1px solid #1D4ED8;
+    color: #1D4ED8;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
 
 
 
@@ -192,5 +246,9 @@ article .ppls .boxdiv {
     .promo .boxflex {
         display: flex;
         flex-direction: column;
+    }
+    .flexingcard {
+    display: flex;
+    flex-direction: column;
     }
 }
