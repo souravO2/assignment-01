@@ -77,14 +77,14 @@ article {
 article>h2 {
     font-size: 56px;
     font-weight: bold;
-    padding: 5%;
+    padding: 50px;
 }
 article .ppls {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     justify-content: space-around;
     gap: 50px;
-    margin: 0 10%;
+    margin: 0 30px;
 }
 article .ppls .boxdiv {
     display: flex;
@@ -107,7 +107,9 @@ article .ppls .boxdiv {
 /* promo starts */
 .promo {
     text-align: center;
-    padding: 100px;
+    white-space: nowrap;
+    width: 100%;
+    padding: 50px;
 }
 .promo .headline h1 {
     font-size: 48px;
@@ -129,7 +131,7 @@ article .ppls .boxdiv {
     text-align: left;
     border: 1px solid hsl(0, 0%, 79%);
     border-radius: 10px;
-    padding: 20px 20px;
+    padding: 20px;
 }
 .card ul {
     padding-top: 10px;
@@ -219,6 +221,7 @@ section .imgdiv p {
     margin-top: 20px;
     font-weight: bold;
 }
+/* special ends */
 footer {
     background-color: #0D1B2A;
     color: aliceblue;
