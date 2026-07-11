@@ -84,7 +84,7 @@ article .ppls {
     grid-template-columns: repeat(2,1fr);
     justify-content: space-around;
     gap: 50px;
-    margin: 0 30px;
+    margin: 0 10%;
 }
 article .ppls .boxdiv {
     display: flex;
